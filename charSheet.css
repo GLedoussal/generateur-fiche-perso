@@ -1,0 +1,81 @@
+.char-input-wrapper {
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.char-one, .char-two, .char-two-adv {
+    float: left;
+}
+
+.char-one {
+    width: 75%;
+}
+
+.char-two, .char-two-adv {
+    width: 25%;
+}
+
+.char-one label {
+    float: left;
+    width: 45%;
+}
+
+.attr-cost-per-level {
+    width: 40%;
+    float: left;
+}
+
+.skill-cost {
+    width: 15%;
+    float: left;
+}
+
+.char-sheet input[type=text]:not(.select-dropdown), .char-sheet input[type=number] {
+    font: inherit;
+    border: none;
+    height: 30px;
+    vertical-align: bottom;
+    padding: 5px 10px;
+}
+
+.char-sheet input[type=text]:not(.select-dropdown).mini-input, .char-sheet input[type=number].mini-input {
+    font-size: 1.2rem;
+    width: 55px;
+}
+
+h3 {
+	font-size: 1.2rem;
+	margin: 0;
+	display: block;
+    width: 100%;
+}
+
+.skill-attribute {
+    width: 20%;
+    float: left;
+}
+
+.skill-difficulty {
+    width: 20%;
+    float: left;
+}
+
+.advantage-wrapper label {
+    padding-left: 25px;
+}
+
+.char-one-adv label {
+    width: 85%;
+    float: left;
+    font-size: 0.9rem;
+}
+
+.char-one-adv {
+    width: 75%;
+    float: left;
+}
+
+.collapsible-header h3 span {
+    float: right;
+    margin-right: 20px;
+}
